@@ -12,6 +12,14 @@ module.exports = {
         'object-curly-newline': 'off',
         'padding-line-between-statements': ['error', { blankLine: 'always', prev: '*', next: 'return' }],
         yoda: ['error', 'always', { onlyEquality: true }]
-    }
+    },
+    overrides: [
+        {
+            ...require('eslint-config-airbnb-base/rules/strict'),
+            ...require('./rules/react'),
+            ...require('./rules/react-a11y'),
+            files: ['*.jsx'],
+        }
+    ]
 };
 
