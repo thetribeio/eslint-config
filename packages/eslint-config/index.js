@@ -7,6 +7,7 @@ module.exports = {
         indent: ['error', 4, { SwitchCase: 1 }],
         'max-len': ['warn', 120],
         'no-console': ['error', { allow: ['warn', 'error', 'info'] }],
+        'no-continue': 'off',
         'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
         'no-plusplus': 'off',
         'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
