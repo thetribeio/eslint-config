@@ -9,7 +9,7 @@ npm install --save-dev @thetribe/eslint-config
 or
 
 ```sh
-yarn add --dev @thetribe/esling-config
+yarn add --dev @thetribe/eslint-config
 ```
 
 ## Configuration
