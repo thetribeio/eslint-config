@@ -19,6 +19,6 @@ yarn add --dev @thetribe/esling-config
 
 {
     "root": true,
-    "extends": "@thetribe/eslint-config"
+    "extends": "@thetribe"
 }
 ```
