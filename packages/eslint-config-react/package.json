@@ -5,5 +5,8 @@
   "dependencies": {
     "@thetribe/eslint-config": "^0.2.1",
     "eslint-config-airbnb": "^18.0.1"
+  },
+  "peerDependencies": {
+    "eslint-plugin-react": "^7.15.0"
   }
 }
