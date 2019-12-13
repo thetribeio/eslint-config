@@ -3,6 +3,22 @@ module.exports = {
     rules: {
         'arrow-parens': ['error', 'always'],
         curly: ['error', 'all'],
+        'import/order': ['error', {
+            alphabetize: {
+                order: asc,
+            },
+            pathGroups: [
+                {
+                    // Put imported assets last
+                    pattern: '*.{css,gif,jpeg,png,scss,svg}',
+                    patternOptions: {
+                        matchBase: true
+                    },
+                    group: 'index',
+                    position: 'after',
+                },
+            ],
+        }],
         'import/prefer-default-export': ['warn'],
         indent: ['error', 4, { SwitchCase: 1 }],
         'max-len': ['warn', 120],
