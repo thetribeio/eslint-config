@@ -5,14 +5,14 @@ module.exports = {
         curly: ['error', 'all'],
         'import/order': ['error', {
             alphabetize: {
-                order: asc,
+                order: 'asc',
             },
             pathGroups: [
                 {
                     // Put imported assets last
                     pattern: '*.{css,gif,jpeg,png,scss,svg}',
                     patternOptions: {
-                        matchBase: true
+                        matchBase: true,
                     },
                     group: 'index',
                     position: 'after',
@@ -29,7 +29,7 @@ module.exports = {
         'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
         'object-curly-newline': 'off',
         'padding-line-between-statements': ['error', { blankLine: 'always', prev: '*', next: 'return' }],
-        yoda: ['error', 'always', { onlyEquality: true }]
-    }
+        yoda: ['error', 'always', { onlyEquality: true }],
+    },
 };
 
