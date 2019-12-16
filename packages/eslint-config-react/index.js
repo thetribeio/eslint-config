@@ -15,6 +15,12 @@ module.exports = {
         'react/jsx-indent-props': ['error', 4],
         'react/jsx-no-useless-fragment': 'error',
         'react/jsx-props-no-spreading': 'off',
+        'react/jsx-sort-default-props': 'error',
+        'react/jsx-sort-props': ['error', {
+            reservedFirst: true,
+            shorthandLast: true,
+        }],
         'react/require-default-props': 'off',
+        'react/sort-prop-types': 'error',
     },
 };
