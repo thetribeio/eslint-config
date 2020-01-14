@@ -5,6 +5,7 @@ module.exports = {
         curly: ['error', 'all'],
         'import/order': ['error', {
             alphabetize: {
+                caseInsensitive: true,
                 order: 'asc',
             },
             pathGroups: [
