@@ -30,7 +30,7 @@ module.exports = {
         'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
         'object-curly-newline': 'off',
         'padding-line-between-statements': ['error', { blankLine: 'always', prev: '*', next: 'return' }],
-        yoda: ['error', 'always', { onlyEquality: true }],
+        yoda: 'off',
     },
 };
 
