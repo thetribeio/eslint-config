@@ -1,0 +1,10 @@
+{
+  "name": "@thetribe/eslint-config-react-typescript",
+  "version": "0.1.0",
+  "main": "index.js",
+  "dependencies": {
+    "@thetribe/eslint-config-react": "^0.4.2",
+    "@thetribe/eslint-config-typescript": "^0.2.1"
+  },
+  "files": []
+}
