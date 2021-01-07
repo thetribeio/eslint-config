@@ -3,7 +3,7 @@ module.exports = {
         require.resolve('@thetribe/eslint-config'),
         'plugin:import/typescript',
     ],
-    parser: require.resolve('@typescript-eslint/parser'),
+    parser: '@typescript-eslint/parser',
     plugins: [
         '@typescript-eslint',
     ],

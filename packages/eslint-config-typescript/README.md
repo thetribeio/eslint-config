@@ -3,7 +3,7 @@
 ## Installation
 
 ```sh
-yarn add --dev @thetribe/eslint-config-typescript @typescript-eslint/eslint-plugin eslint-plugin-import
+yarn add --dev @thetribe/eslint-config-typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-import
 ```
 
 ## Configuration
