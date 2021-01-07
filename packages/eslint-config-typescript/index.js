@@ -11,8 +11,10 @@ module.exports = {
         // Replace base eslint rules with rules from typescript-eslint
         '@typescript-eslint/no-shadow': ['error'],
         '@typescript-eslint/no-unused-vars': ['error'],
+        '@typescript-eslint/no-use-before-define': ['error'],
         'no-shadow': 'off',
         'no-unused-vars': 'off',
+        'no-use-before-define': 'off',
         // Add ts to allowed extensions
         'import/extensions': ['error', 'ignorePackages', {
             cjs: 'never',
