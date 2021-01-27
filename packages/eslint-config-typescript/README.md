@@ -13,6 +13,9 @@ yarn add --dev @thetribe/eslint-config-typescript @typescript-eslint/eslint-plug
 
 {
     "root": true,
-    "extends": "@thetribe/eslint-config-typescript"
+    "extends": "@thetribe/eslint-config-typescript",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    }
 }
 ```

@@ -13,6 +13,9 @@ yarn add --dev @thetribe/eslint-config-react-typescript @typescript-eslint/eslin
 
 {
     "root": true,
-    "extends": "@thetribe/eslint-config-react-typescript"
+    "extends": "@thetribe/eslint-config-react-typescript",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    }
 }
 ```

@@ -22,6 +22,9 @@ module.exports = {
             mjs: 'never',
             ts: 'never',
         }],
+        // Replace default-case with switch-exhaustiveness-check
+        '@typescript-eslint/switch-exhaustiveness-check': 'error',
+        'default-case': 'off',
     },
     settings: {
         'import/extensions': [
