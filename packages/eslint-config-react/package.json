@@ -1,9 +1,9 @@
 {
   "name": "@thetribe/eslint-config-react",
-  "version": "v0.4.2",
+  "version": "v0.4.3",
   "main": "index.js",
   "dependencies": {
-    "@thetribe/eslint-config": "^0.4.2",
+    "@thetribe/eslint-config": "^0.4.3",
     "eslint-config-airbnb": "^18.1.0"
   },
   "peerDependencies": {
